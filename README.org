@@ -2,7 +2,7 @@
 Able to write advanced user-defined GDB commands, and use them to debug more complex data structures including linked lists and binary trees.
 
 ** Setup
-Make sure to include this line of code in your ~/.gdbinit
+Make sure to include this line of code in your \~/.gdbinit
 ~set auto-load safe-path /~
 
 Compile the source code ~gcc -g -o test_btree test_btree.c btree.c~
